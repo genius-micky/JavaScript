@@ -57,7 +57,7 @@ console.log(1 + 2 + "2"); // 32
 
 console.log(true); // true
 console.log(+true); // 1
-console.log(true+); // error
+//console.log(true+); // error
 console.log(+""); // 0
 
 let num1, num2, num3
