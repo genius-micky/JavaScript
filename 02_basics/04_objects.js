@@ -55,5 +55,40 @@ console.log(Object.entries(tinderUser)); // creates array inside array.
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+// destructuring
+
+const course = {
+    coursename: "JS in Hindi",
+    price: "999",
+    courseInstructor: "mickey"
+}
+
+// course.courseInstructor 
+// anoter way to access using destructring 
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+const navbar = ({company}) => {
+
+}
+navbar(company = "mickey")
+
+// API's concept
+// apna kaam kisi or ke sir pe daldo
+//Json
+// {
+//     name: "mickey",
+//     coursename: "js in hindi",
+//     price: "free"
+// } 
+
+// api in arary format
+[
+    {},
+    {},
+    {}
+]
 
 
